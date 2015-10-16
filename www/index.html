@@ -26,21 +26,31 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<meta property="og:title" content="Thai Raptor Guide (Beta)" />
+		<meta property="og:site_name" content="Birds of Thailand" />
+		<meta property="og:description" content="Photo Guide of the Raptors of Thailand and South-East Asia (partly), including color photographs, basic ID features, biology info, and field data infographics. Compiled by Thai Raptor Group since 2005." />
+		<meta property="og:image" content="http://www.birdsofthailand.org/raptor/img/steppe-blue.JPG" />
+		<link rel="icon" type="image/png" href="http://www.birdsofthailand.org/raptor/icon.png">
 		<!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">-->
 		<link rel="stylesheet" href="css/jquery.mobile.flatui.min.css">
 		<link rel="stylesheet" href="css/photoswipe.css">
 		<link rel="stylesheet" href="css/default-skin/default-skin.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css?2015.10.16.3" />
         <title>Thai Raptor Guide</title>
     </head>
     <body>
 		<img src="img/splash.jpg" class="splash-logo">
 		<div data-role="page" id="splashPage" dialog="true">
+			<div data-role="header" data-theme="a">
+				<h2>Thai Raptor Guide</h2>
+			</div>
 			<div role="main" class="ui-content">
-				<div class="ui-body ui-body-a ui-corner-all" style="text-align:center;">
-					<h2 class="ui-bar ui-bar-f">Thai Raptor Guide</h2>
-					<img src="img/sayno.jpg" class="ui-corner-all" style="width: 72%;" />
-					<a id="AcceptButton" href="#browsePage" class="ui-disabled" data-role="button" data-theme="g">OK</a>
+				<div style="text-align: center; margin-top: -2em;">
+					<!--<h2 class="ui-bar ui-bar-f">Thai Raptor Guide</h2>-->
+					<img src="img/sayno1.jpg" class="ui-corner-all" style="width: 72%;" />
+					<div style="text-align: center; padding: 0 25%;">
+						<a id="AcceptButton" href="#browsePage" class="ui-disabled" data-role="button" data-theme="g">OK</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -57,20 +67,6 @@
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 
 		</div>
@@ -87,7 +83,7 @@
 			</div>
 			
 		</div>
-		
+<!--		
 		<div data-role="page" id="searchPage">
 			
 			<div data-role="header" data-position="fixed">
@@ -99,31 +95,17 @@
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel0" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 
 		</div>
-		
+-->
 		<div data-role="page" id="idBasicsPage">
 			<div data-role="header" data-position="fixed">
 				<a data-iconpos="notext" href="#menupanel1" data-role="button" data-icon="flat-menu"></a>	
 				<h2>Thai Raptor Guide</h2>
 			</div>
 			<div role="main" class="ui-content">
-				<h2 class="ui-bar ui-bar-f">หลักการจำแนกชนิดนกนักล่า</h2>
+				<h2 class="ui-bar ui-bar-f">หลักการจำแนกชนิดนกนักล่า (ID Basics)</h2>
 				<div class="content-page ui-body ui-body-f ui-corner-all">
 					<p>นกนักล่าในเวลากลางวัน (Diurnal raptors หรือ Birds of prey) ประกอบด้วยเหยี่ยว นกอินทรีและอีแร้ง เป็นกลุ่มที่ท้าทายนักดูนกในแง่การจำแนกชนิดเป็นอย่างยิ่ง เนื่องจากนกล่าเหยื่อมีความหลากหลายของชนิด เพศและวัย ทำให้ชุดขนของแต่ละชนิดและภายในชนิดเดียว ต่างกันโดยสิ้นเชิง ก่อให้เกิดความสับสนต่อนักดูนกได้มาก หากไม่ทราบถึงความหลากหลายเหล่านี้ โดยเฉพาะอย่างยิ่งสำหรับนักดูนกที่มีประสบการณ์น้อย นอกจากนี้ นกล่าเหยื่อจัดว่าเป็นกลุ่มของนกที่ต้องใช้ความละเอียดถี่ถ้วน ความรู้ในเรื่องชุดขนและความชำนาญที่สะสมจากการพบเห็นนกจำนวนมากและบ่อยครั้งเป็นอย่างมาก เพื่อให้จำแนกชนิดได้อย่างถูกต้องโดยไม่ผิดพลาด นอกจากนี้เหยี่ยวส่วนใหญ่มีการเคลื่อนไหวรวดเร็ว คล่องแคล่วว่องไว มีความระแวงภัยสูง ดังนั้นนักดูนกมักพบเห็นเหยี่ยวขณะบินหรือเกาะคอนในระยะไกล เช่น การเฝ้าสังเกตเหยี่ยวอพยพ ณ จุดนับเหยี่ยวอพยพ ทำให้การสังเกตเพื่อรวบรวมจุดแยกที่สำคัญให้ได้มาซึ่งข้อสรุปในการจำแนกชนิดเป็นได้ยากยิ่งขึ้น หากนักดูนกไม่ตระหนักถึงจุดแยกเหล่านั้นมาก่อนว่าควรจะต้องมุ่งความสนใจที่จุดแยกบางประการที่สำคัญก่อนจุดแยกอื่น ๆ บนตัวนกล่าเหยื่อที่กำลังสังเกตอยู่</p>
 					<p>เหยี่ยวบางชนิด พบเห็นได้บ่อยในธรรมชาติจนชินตา ไม่ยากต่อการจำแนกชนิด เช่น <a href="#birdsPage" data-id="8">เหยี่ยวแดง</a>ในชุดขนตัวเต็มวัย หรือ <a href="#birdsPage" data-id="6">เหยี่ยวขาว</a> เป็นต้น แต่ในความเป็นจริง เหตุการณ์ข้างต้นเกิดขึ้นเป็นส่วนน้อยเท่านั้น สำหรับการดูเหยี่ยวโดยส่วนใหญ่ นักดูนกมักจะเผชิญกับสถานการณ์ที่ไม่เอื้ออำนวยให้จำแนกชนิดเหยี่ยวได้อย่างมั่นใจ เนื่องจากเหตุผลหลายประการ ดังต่อไปนี้</p>
@@ -176,7 +158,7 @@
 					5. <a href="#birdsPage" data-id="45">เหยี่ยวท้องแดง</a><br/>
 					6. <a href="#birdsPage" data-id="5">เหยี่ยวค้างคาว</a></p>
 					<h4>รูปร่างของรูจมูก</h4>
-					<p>รูปร่างของรูจมูก เป็นจุดแยกสำคัญ แม้อาจจะมีโอกาสใช้ประโยชน์ไม่มากนักในภาคสนาม เนื่องจากมักพบเหยี่ยวหรือนกอินทรีในระยะไกลเกินกว่ากำลังขยายของกล้องสองตาหรือกล้องสโคปที่จะสังเกตรูจมูกได้ชัดเจน อย่างไรก็ตาม รูปร่างของรูจมูกมีความสำคัญอย่างมากสำหรับการจำแนกชนิดของนกอินทรีแท้ขนาดใหญ่ ที่มีความหลากหลายของชุดขนระหว่างอายุ และชุดขนเหล่านี้เมื่อเก่าทรุดโทรม ทำให้ชุดขนนั้นคล้ายคลึงและก่อให้เกิดความสับสนทั้งภายในชนิดเดียวกันแต่อายุต่างกัน และระหว่างชนิดด้วยซ้ำ เช่น ความคล้ายคลึงกันระหว่าง นกอินทรีสีน้ำตาล ชุดขนสีจางและ <a href="#birdsPage" data-id="40">นกอินทรีปีกลาย</a> ชุดขนสีทอง หรือ <a href="#birdsPage" data-id="40">นกอินทรีปีกลาย</a> วัยรุ่นและ <a href="#birdsPage" data-id="41">นกอินทรีทุ่งหญ้าสเต็ป</a> หรือ นกอินทรีสีน้ำตาล ชุดขนสีจางวัยรุ่น หรือ <a href="#birdsPage" data-id="4">เหยี่ยวผึ้ง</a> ชนิดย่อยประจำถิ่นในภาคใต้ที่เลียนแบบชุดขนของเหยี่ยวชนิดอื่นที่ดุร้าย มีพละกำลังมากกว่า (Aggression mimicry) คือ เหยี่ยวดง จะมีหงอนและชุดขนของลำตัวและลักษณะใต้ปีกคล้าย <a href="#birdsPage" data-id="48">เหยี่ยวดำท้องขาว</a> หรือ <a href="#birdsPage" data-id="49">เหยี่ยวหงอนสีน้ำตาลท้องขาว</a> </p>
+					<p>รูปร่างของรูจมูก เป็นจุดแยกสำคัญ แม้อาจจะมีโอกาสใช้ประโยชน์ไม่มากนักในภาคสนาม เนื่องจากมักพบเหยี่ยวหรือนกอินทรีในระยะไกลเกินกว่ากำลังขยายของกล้องสองตาหรือกล้องสโคปที่จะสังเกตรูจมูกได้ชัดเจน อย่างไรก็ตาม รูปร่างของรูจมูกมีความสำคัญอย่างมากสำหรับการจำแนกชนิดของนกอินทรีแท้ขนาดใหญ่ ที่มีความหลากหลายของชุดขนระหว่างอายุ และชุดขนเหล่านี้เมื่อเก่าทรุดโทรม ทำให้ชุดขนนั้นคล้ายคลึงและก่อให้เกิดความสับสนทั้งภายในชนิดเดียวกันแต่อายุต่างกัน และระหว่างชนิดด้วยซ้ำ เช่น ความคล้ายคลึงกันระหว่าง นกอินทรีสีน้ำตาล ชุดขนสีจางและ <a href="#birdsPage" data-id="40">นกอินทรีปีกลาย</a> ชุดขนสีทอง หรือ <a href="#birdsPage" data-id="40">นกอินทรีปีกลาย</a> วัยรุ่นและ <a href="#birdsPage" data-id="41">นกอินทรีทุ่งหญ้าสเต็ป</a> หรือ <a href="#birdsPage" data-id="4">เหยี่ยวผึ้ง</a> ชนิดย่อยประจำถิ่นในภาคใต้ที่เลียนแบบชุดขนของเหยี่ยวชนิดอื่นที่ดุร้าย มีพละกำลังมากกว่า (Aggression mimicry) คือ เหยี่ยวดง จะมีหงอนและชุดขนของลำตัวและลักษณะใต้ปีกคล้าย <a href="#birdsPage" data-id="48">เหยี่ยวดำท้องขาว</a> หรือ <a href="#birdsPage" data-id="49">เหยี่ยวหงอนสีน้ำตาลท้องขาว</a> </p>
 					<p>ในบรรดานกอินทรีแท้ขนาดใหญ่ สกุล <i>Aquila</i> และ <i>Clanga</i> <a href="#birdsPage" data-id="40">นกอินทรีปีกลาย</a> มีรูจมูกกลม     แต่ <a href="#birdsPage" data-id="41">นกอินทรีทุ่งหญ้าสเต็ป</a> และ <a href="#birdsPage" data-id="42">นกอินทรีหัวไหล่ขาว</a> มีรูจมูกรี รูปไข่ และเหยี่ยวผึ้งมีรูจมูกรีและแคบเรียวเป็นร่อง แต่เหยี่ยวดงมีรูจมูกกลม</p>
 
 					<p><strong>โดยสรุป</strong> ถ้าพบเหยี่ยวขณะเกาะ มีหงอน ปีกสั้นเพียงครึ่งหนึ่งของความยาวหางและมีขนคลุมแข้ง คล้ายสวมถุงเท้า (โดยไม่จำเป็นต้องพิจารณาลักษณะของชุดขนหรือพื้นที่การแพร่กระจายพันธุ์) น่าจะเป็นเหยี่ยวดง 1 ใน 3 ชนิด ได้แก่ <a href="#birdsPage" data-id="47">เหยี่ยวภูเขา</a> <a href="#birdsPage" data-id="48">เหยี่ยวดำท้องขาว</a> หรือ <a href="#birdsPage" data-id="49">เหยี่ยวหงอนสีน้ำตาลท้องขาว</a> เพราะ <a href="#birdsPage" data-id="46">เหยี่ยวต่างสี</a> ซึ่งเป็นเหยี่ยวดงเช่นกัน แต่ชนิดย่อยในประเทศไทยไม่มีหงอน ต่อมาให้สังเกตสีสันและลวดลายของชุดขนของเหยี่ยวเพื่อจำแนกชนิดต่อไป หรือถ้าพบเหยี่ยวที่มีแข้งเปลือย ไม่มีขนคลุมถึงข้อตีน (จุดแยกนี้สามารถตัดเหยี่ยวดงได้ทุกชนิด) และมีปีกสั้นเพียงครึ่งหนึ่งของความยาวหางหรือสั้นกว่า น่าจะเป็นเหยี่ยวนกเขาหรือเหยี่ยวนกกระจอกในสกุล <i>Accipiter</i> หรือเหยี่ยวปีกแหลมขนาดเล็ก เช่น <a href="#birdsPage" data-id="50">เหยี่ยวเล็กตะโพกขาว</a> หรือเหยี่ยวแมลงปอ</p>
@@ -184,20 +166,6 @@
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel1" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
@@ -210,35 +178,20 @@
 			<div role="main" class="ui-content">
 				<h2 class="ui-bar ui-bar-f">เงาร่างขณะบิน (Flight silhouette)</h2>
 				<div class="content-page ui-body ui-body-f ui-corner-all">
-					(Todo: images)
-
+					<img src="img/silhouette/flight silhouette.jpg" />
 				</div>
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel2" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
-		
+<!--		
 		<div data-role="page" id="statisticsPage">
 			<div data-role="header" data-position="fixed">
 				<a data-iconpos="notext" href="#menupanel3" data-role="button" data-icon="flat-menu"></a>	
 				<h2>Thai Raptor Guide</h2>
-			</div>
+		</div>
 			<div role="main" class="ui-content">
 				<h2 class="ui-bar ui-bar-f">Statistics</h2>
 				<div class="ui-body ui-body-f ui-corner-all">
@@ -247,51 +200,41 @@
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel3" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
-		
+-->		
 		<div data-role="page" id="infoGraphicsPage">
 			<div data-role="header" data-position="fixed">
 				<a data-iconpos="notext" href="#menupanel4" data-role="button" data-icon="flat-menu"></a>	
 				<h2>Thai Raptor Guide</h2>
 			</div>
 			<div role="main" class="ui-content">
-				<h2 class="ui-bar ui-bar-f">Infographic</h2>
-				<div class="ui-body ui-body-f ui-corner-all">
-					[Todo: list of content]
+				<h2 class="ui-bar ui-bar-f">Infographics</h2>
+				<div class="content-page ui-body ui-body-f ui-corner-all">
+					<div class="gallery-list">
+						<div>
+							<a href="img/infographics/radar-hill-2008.jpg" data-w="1000" data-h="707" title="Radar Hill Autumn Count, 2008 การสำรวจจำนวนเหยี่ยวอพยพในฤดูอพยพต้นหนาว ณ เขาเรดาร์ ต.ไชยราช อ.บางสะพานน้อย จ.ประจวบคีรีขันธ์"><img src="img/infographics/radar-hill-2008.jpg" />
+							</a>
+							<p><strong>Radar Hill Autumn Count, 2008</strong><br />
+								การสำรวจจำนวนเหยี่ยวอพยพในฤดูอพยพต้นหนาว ณ เขาเรดาร์ ต.ไชยราช อ.บางสะพานน้อย จ.ประจวบคีรีขันธ์</p>
+						</div>
+						<div>
+							<a href="img/infographics/black-kite-count-2014.jpg" data-w="1000" data-h="707" title="Black-eared Kite Count, 2014 สำรวจประชากรของเหยี่ยวหูดำ/เหยี่ยวดำใหญ่ ณ แหล่งพักนอนเวลากลางคืนในประเทศไทย พุทธศักราช 2557"><img src="img/infographics/black-kite-count-2014-m.jpg" />
+							</a>
+							<p><strong>Black-eared Kite Count, 2014</strong><br />
+								สำรวจประชากรของเหยี่ยวหูดำ/เหยี่ยวดำใหญ่ ณ แหล่งพักนอนเวลากลางคืนในประเทศไทย พุทธศักราช 2557</p>
+						</div>
+						<div>
+							<a href="img/infographics/jerdon-s-baza.jpg" data-w="1000" data-h="707" title="จำนวนของเหยี่ยวกิ้งก่าสีน้ำตาลอพยพผ่านภาคใต้ ณ เขาเรดาร์และเขาดินสอ ในฤดูกาลอพยพต้นหนาว พุทธศักราช 2548 – 2557"><img src="img/infographics/jerdon-s-baza.jpg" />
+							</a>
+							<p>จำนวนของเหยี่ยวกิ้งก่าสีน้ำตาลอพยพผ่านภาคใต้ ณ เขาเรดาร์และเขาดินสอ ในฤดูกาลอพยพต้นหนาว พุทธศักราช 2548 – 2557</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel4" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
@@ -302,31 +245,29 @@
 				<h2>Thai Raptor Guide</h2>
 			</div>
 			<div role="main" class="ui-content">
-				<h2 class="ui-bar ui-bar-f">Cartoons</h2>
-				<div class="ui-body ui-body-f ui-corner-all">
-					[todo: list of cartoon]
+				<h2 class="ui-bar ui-bar-f">Raptor Toons</h2>
+				<div class="content-page ui-body ui-body-f ui-corner-all">
+					<p>Major Migratory Species of Raptors in Thailand and South-East Asia</p>
+					<p>เหยี่ยวอพยพ 6 ชนิดหลักในประเทศไทยและภูมิภาคเอเชียตะวันออกเฉียงใต้/อุษาคเนย์</p>
+					<div class="gallery-list ui-grid-a">
+						<div class="ui-block-a"><a href="img/cartoons/black-baza.jpg" data-w="1275" data-h="960" title="Black Baza"><img src="img/cartoons/black-baza.jpg" /></a></div>
+						<div class="ui-block-b"><a href="img/cartoons/ohb.jpg" data-w="792" data-h="834" title="Black Baza"><img src="img/cartoons/ohb.jpg" /></a></div>
+						<div class="ui-block-a"><a href="img/cartoons/shikra.jpg" data-w="1091" data-h="932" title="Black Baza"><img src="img/cartoons/shikra.jpg" /></a></div>
+						<div class="ui-block-b"><a href="img/cartoons/chinese-goshawk.jpg" data-w="1066" data-h="930" title="Black Baza"><img src="img/cartoons/chinese-goshawk.jpg" /></a></div>
+						<div class="ui-block-a"><a href="img/cartoons/japanese-sparrowhawk.jpg" data-w="1330" data-h="892" title="Black Baza"><img src="img/cartoons/japanese-sparrowhawk.jpg" /></a></div>
+						<div class="ui-block-b"><a href="img/cartoons/grey-faced-buzzard.jpg" data-w="918" data-h="902" title="Black Baza"><img src="img/cartoons/grey-faced-buzzard.jpg" /></a></div>
+						<div class="ui-block"><a href="img/cartoons/soaring-on-thermals.jpg" data-w="2048" data-h="1603" title="Black Baza"><img src="img/cartoons/soaring-on-thermals.jpg" /></a></div>
+					</div>
+					<p>© Maythira Kasemsant, Nature Toon การ์ตูนสื่อความหมายธรรมชาติ </p>
+					<p><a href="https://www.facebook.com/naturetoon" target="_blank">www.facebook.com/naturetoon</a></p>
 				</div>
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel5" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
-		
+<!--		
 		<div data-role="page" id="slideshowPage">
 			<div data-role="header" data-position="fixed">
 				<a data-iconpos="notext" href="#menupanel6" data-role="button" data-icon="flat-menu"></a>	
@@ -337,24 +278,10 @@
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel6" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
-		
+-->		
 		<div data-role="page" id="contributorsPage">
 			<div data-role="header" data-position="fixed">
 				<a data-iconpos="notext" href="#menupanel7" data-role="button" data-icon="flat-menu"></a>	
@@ -364,28 +291,40 @@
 				<h2 class="ui-bar ui-bar-f">Contributors</h2>
 				<div class="ui-body ui-body-f ui-corner-all">
 					<h3>Thai Raptor Group members and volunteers</h3>
-					[todo]
-					
+					<p>
+						Bhud Lakarin, 
+						Chatuphon Sawasdee, 
+						Chaiwat Wongchai, 
+						Chaiyan Kasorndorkbua, 
+						Chirdphong Termtanon, 
+						Chultawat Bhowattanadilok, 
+						Hathairat Sawasdee, 
+						Jessada Sawasdee, 
+						Mark Mallaleau, 
+						Maythira Kasemsant, 
+						Nuttawat Wiratchakoun, 
+						Dr.Pattarapong Jakthong, 
+						Peerasit Tantavanij, 
+						Pornpat Nikamanon, 
+						Praphin Buasong, 
+						Saranya Sombatanantakorn</p>
+
 					<h3>Photo Credits</h3>
-					[todo]
+					<p>
+						Chaiyan Kasorndorkbua, 
+						Chumpol Phoungsook, 
+						Kamron Petprayoon, 
+						Nattapol Kirdchuchuen,  
+						Praphin Buasong, 
+						Prapoj Rukruenreang,  
+						Wattanachai Rodnirung, 
+						Wiroj Onganunkun, 
+						Worawat Muthuwan
+					</p>
 				</div>
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel7" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
@@ -397,29 +336,56 @@
 			</div>
 			<div role="main" class="ui-content">
 				<h2 class="ui-bar ui-bar-f">Help Raptors</h2>
-				<div class="ui-body ui-body-f ui-corner-all">
+				<div class="content-page ui-body ui-body-f ui-corner-all">
 					<p>นกนักล่าหรือนกล่าเหยื่อ ประกอบด้วย<strong>เหยี่ยว นกอินทรี อีแร้ง นกเค้าและนกแสก</strong> เป็นสัตว์ป่าคุ้มครองในพระราชบัญญัติสงวนและคุ้มครองสัตว์ป่าพุทธศักราช 2535 การดักจับเพื่อขายหรือเลี้ยง ทำร้ายให้บาดเจ็บหรือตายเป็นการกระทำผิดกฎหมาย และส่งผลต่อประชากรในธรรมชาติ อาจทำให้ระบบนิเวศเสียสมดุล อย่างไรก็ตามจากทัศนคติทางลบของบุคคลต่อนกนักล่าบางชนิด ที่ล่าสัตว์อื่นเป็นอาหาร หรือค่านิยมผิดๆ ที่จับเหยี่ยวมาเลี้ยงหรือฝึกอย่างผิดกฏหมาย กลายเป็นการสนับสนุนวงการค้าสัตว์ป่า ทำให้นกนักล่าตกเป็นเป็นเหยื่อของมนุษย์ บาดเจ็บจากการยิง ติดกับดัก หรือดักจับมาเลี้ยงหรือขาย นกบางชนิด เช่น อีแร้ง ด้วยค่านิยมผิดๆ ที่เป็นสัตว์กินซาก ทำให้ถูกมองว่าเป็นตัวนำโชคไม่ดี เพราะพบเห็นเมื่อใดก็พบเห็นความตาย ทั้งที่อีแร้งมีคุณประโยชน์ต่อระบบนิเวศ ช่วยกำจัดซากสัตว์ให้หมดไปอย่างรวดเร็ว ไม่เป็นแหล่งเพาะพันธุ์เชื้อโรคที่อาจก่อให้เกิดโรคระบาดในสัตว์เลี้ยงได้ </p>
 					<p>นกนักล่าบางชนิดเป็นนกอพยพ ขณะเดินทางย้ายถิ่นมีอุปสรรคมากมาย อาจหมดแรง เพราะขาดอาหาร ชนกระจกหรือชนสิ่งกีดขวาง หรือลูกนกตกจากรัง กำพร้าพ่อและแม่ เมื่อได้รับการช่วยเหลือฟื้นฟูด้วยสัตวแพทย์ผู้เชี่ยวชาญ จะสามารถกลับคืนสู่ธรรมชาติได้.</p>
+					
+					<div class="gallery-list help-raptor-list ui-grid-b">
+						<div class="ui-block-a"><div class="thumb-wrapper"><a href="img/helpraptors/hr01.jpg" data-w="600" data-h="450" title="เหยี่ยวเคสเตรลโดนสุนัขกัด"><img src="img/helpraptors/hr01.jpg" /></a></div></div>
+						<div class="ui-block-b"><div class="thumb-wrapper"><a href="img/helpraptors/hr02.jpg" data-w="640" data-h="480" title="นกเค้าเหยี่ยวบินชนตึก"><img src="img/helpraptors/hr02.jpg" /></a></div></div>
+						<div class="ui-block-c"><div class="thumb-wrapper"><a href="img/helpraptors/hr03.jpg" data-w="1000" data-h="1333" title="ลูกนกเค้าโมงกำพร้า"><img src="img/helpraptors/hr03.jpg" /></a></div></div>
+						<div class="ui-block-a"><div class="thumb-wrapper"><a href="img/helpraptors/hr04.jpg" data-w="960" data-h="720" title="ลูกเหยี่ยวขาวเป็นโรคกระดูกอ่อนเพราะภาวะทุโภชนาการจากการเลี้ยง"><img src="img/helpraptors/hr04.jpg" /></a></div></div>
+						<div class="ui-block-b"><div class="thumb-wrapper"><a href="img/helpraptors/hr05.jpg" data-w="480" data-h="481" title="เหยี่ยวปีกแดงมีกรงเล็บพิการจากโรคกระดูกอ่อน"><img src="img/helpraptors/hr05.jpg" /></a></div></div>
+						<div class="ui-block-c"><div class="thumb-wrapper"><a href="img/helpraptors/hr06.jpg" data-w="640" data-h="480" title="นกแสกถูกยิง"><img src="img/helpraptors/hr06.jpg" /></a></div></div>
+						<div class="ui-block-a"><div class="thumb-wrapper"><a href="img/helpraptors/hr07.jpg" data-w="1000" data-h="750" title="นกแสกพักฟื้นในกล่องออกซิเจนหลังการผ่าตัด"><img src="img/helpraptors/hr07.jpg" /></a></div></div>
+						<div class="ui-block-b"><div class="thumb-wrapper"><a href="img/helpraptors/hr08.jpg" data-w="1000" data-h="1333" title="นกเค้าใหญ่พันธุ์เนปาลขาหัก"><img src="img/helpraptors/hr08.jpg" /></a></div></div>
+						<div class="ui-block-c"><div class="thumb-wrapper"><a href="img/helpraptors/hr09.jpg" data-w="1000" data-h="1333" title="วางยาสลบนกเค้าใหญ่พันธุ์เนปาลก่อนผ่าตัดแก้ไขกระดูกหัก"><img src="img/helpraptors/hr09.jpg" /></a></div></div>
+						<div class="ui-block-a"><div class="thumb-wrapper"><a href="img/helpraptors/hr10.jpg" data-w="1000" data-h="1333" title="การผ่าตัดแก้ไขกระดูกหักของนกเค้าใหญ่พันธุ์เนปาล"><img src="img/helpraptors/hr10.jpg" /></a></div></div>
+						<div class="ui-block-b"><div class="thumb-wrapper"><a href="img/helpraptors/hr11.jpg" data-w="800" data-h="534" title="อีแร้งสีน้ำตาลหิมาลัยรับสารน้ำและเกลือแร่ทางหลอดเลือด"><img src="img/helpraptors/hr11.jpg" /></a></div></div>
+						<div class="ui-block-c"><div class="thumb-wrapper"><a href="img/helpraptors/hr12.jpg" data-w="640" data-h="845" title="ปล่อยนกออกคืนธรรมชาติ ที่จังหวัดประจวบคีรีขันธ์"><img src="img/helpraptors/hr12.jpg" /></a></div></div>
+						<div class="ui-block-a"><div class="thumb-wrapper"><a href="img/helpraptors/hr13.jpg" data-w="800" data-h="479" title="อีแร้งสีน้ำตาลหิมาลัยกลับสู่ธรรมชาติที่เขตรักษาพันธุ์สัตว์ป่าห้วยขาแข้ง"><img src="img/helpraptors/hr13.jpg" /></a></div></div>
+						<div class="ui-block-b"><div class="thumb-wrapper"><a href="img/helpraptors/hr14.jpg" data-w="960" data-h="720" title="คลินิกนกล่าเหยื่อ ม.เกษตรศาสตร์ กำแพงแสน"><img src="img/helpraptors/hr14.jpg" /></a></div></div>
+						<div class="ui-block-c"><div class="thumb-wrapper"><a href="img/helpraptors/hr16.jpg" data-w="960" data-h="540" title="กิจกรรมสร้างบ้านให้นักล่ายามค่ำคืน (นกเค้า) โดยนิสิตสัตวแพทย์อาสาอาเซียนจากต่างประเทศ"><img src="img/helpraptors/hr16.jpg" /></a></div></div>
+					</div>
+					
+					<p>คณะสัตวแพทยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ และสำนักอนุรักษ์สัตว์ป่า กรมอุทยานแห่งชาติ สัตว์ป่าและพันธุ์พืช จัดทำโครงการฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนสู่ธรรมชาติ (Raptor rehabilitation for release project) โดยหน่วยฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ โรงพยาบาลสัตว์ มหาวิทยาลัยเกษตรศาสตร์ กำแพงแสน (Kasetsart University Raptor Rehabilitation Unit: KURU) เพื่อช่วยเหลือบำบัดรักษานกนักล่าที่บาดเจ็บ หรือเจ็บป่วย ให้มีสุขภาพแข็งแรง แล้วปล่อยคืนธรรมชาติในถิ่นอาศัยและฤดูกาลที่เหมาะสมต่อชนิดพันธุ์ นกที่รักษาแล้วรอดชีวิตแต่พิการ จะเลี้ยงไว้เป็น “ตำรามีชีวิต” สอนนิสิตสัตวแพทย์ด้านเวชศาสตร์สัตว์ป่า และเป็นตัวอย่างให้ความรู้ต่อสาธารณะ</p>
+					<p>การช่วยเหลือฟื้นฟูนกนักล่าบาดเจ็บหรือเจ็บป่วยเหล่านี้ ไม่คิดค่าใช้จ่ายหรือค่าวินิจฉัยและรักษาโรคจากประชาชนผู้นำส่งแต่ประการใด เนื่องจากนกนักล่าเป็นสัตว์ป่าคุ้มครองตามกฎหมาย หากใช้เงินบริจาคของประชาชนในกองทุน “ฟื้นฟูนกล่าเหยื่อ ม.เกษตรศาสตร์” สนับสนุนการดำเนินงานของโครงการฟื้นฟูนกล่าเหยื่อฯ รวมทั้งได้รับการสนับสนุนด้านต่างๆ จากองค์กรเอกชน อาทิ เครือเบทาโกร บริษัท เน็ทวัน เน็ทเวิร์คโซลูชั่น จำกัด</p>
+					<p>คณะทำงานในโครงการฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ</p>
+					<ol>
+						<li>นายสัตวแพทย์ ดร.ไชยยันต์ เกษรดอกบัว หัวหน้าหน่วยฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ </li>
+						<li>นายสัตวแพทย์ ดร.พรชัย สัญฐิติเสรี</li>
+						<li>นายประทีป โรจนดิลก สำนักอนุรักษ์สัตว์ป่า กรมอุทยานแห่งชาติ สัตว์ป่าและพันธุ์พืช</li>
+						<li>นายสัตวแพทย์ภัทรพงศ์ จักรทอง สัตวแพทย์ประจำหน่วยฟื้นฟูนกล่าเหยื่อ</li>
+						<li>นายไมตรี อ้นพรหม พนักงานดูแลสัตว์ วิทยาเขตกำแพงแสน</li>
+						<li>นายพิภพ เจริญสรรพ์ พนักงานดูแลสัตว์ วิทยาเขตบางเขน</li>
+					</ol>
+					<p>ติดตามการดำเนินงานของหน่วยฟื้นฟูนกล่าเหยื่อฯ ที่ <a href="https://www.facebook.com/KasetsartUniversityRaptorUnit" target="_blank">www.facebook.com/KasetsartUniversityRaptorUnit</a></p>
+					<p>ประชาชนผู้ประสงค์จะช่วยเหลือสนับสนุนนกนักล่าบาดเจ็บ หรือเจ็บป่วยสามารถบริจาคด้วยการโอนเงินที่</p>
+					<p>กองทุนฟื้นฟูนกล่าเหยื่อ ม.เกษตรศาสตร์<br />
+						ธนาคารกรุงศรีอยุธยา สาขาม. เกษตรศาสตร์ <br />
+						หมายเลขบัญชี #374-1-59950-2</p>
+					<p>สอบถามขั้นตอน หรือกระบวนการช่วยเหลือนกบาดเจ็บเบื้องต้นที่ โทร. 086-3328117</p>
+					<p>นำส่งนกนักล่าบาดเจ็บหรือเจ็บป่วยที่</p>
+					<ul>
+						<li>หน่วยฟื้นฟูนกล่าเหยื่อฯ โรงพยาบาลสัตว์ ม.เกษตรศาสตร์ บางเขน โทร.061-6077805</li>
+						<li>คลินิกนกล่าเหยื่อ หน่วยฟื้นฟูนกล่าเหยื่อฯ โรงพยาบาลสัตว์ ม.เกษตรศาสตร์ กำแพงแสน โทร. 086-3328117</li>
+						<li>คลินิกสัตว์ป่า ศูนย์ประสานงานการช่วยเหลือสัตว์ป่า กรมอุทยานแห่งชาติ สัตว์ป่าและพันธุ์พืช โทร.สายด่วน 1362</li>
+						<li>สถานีเพาะเลี้ยงสัตว์ป่า เขตห้ามล่าสัตว์ป่าหรือสำนักบริหารพื้นที่อนุรักษ์ในจังหวัดต่างๆ เพื่อประสานการช่วยเหลือนกนักล่าบาดเจ็บในภูมิภาค</li>
+					</ul>
 				</div>
-				[Todo: Images]
-				[Todo: more content]
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel8" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
@@ -430,24 +396,38 @@
 				<h2>Thai Raptor Guide</h2>
 			</div>
 			<div role="main" class="ui-content">
-				[todo: list of two boos]
+				<h2 class="ui-bar ui-bar-f">Books</h2>
+				<div class="content-page ui-body ui-body-f ui-corner-all">
+					<div class="book-list">
+						<div>
+							<h3 class="ui-bar ui-bar-g">นกไทย นกเทศและนกนักล่า </h3>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/books/nok.jpg" /></div>
+								<div class="ui-block-b"><img src="img/books/nok-back.jpg" /></div>
+							</div>
+							<p>หนังสือนกไทย นกเทศและนกนักล่า รวบรวมบทความเผยแพร่เกี่ยวกับการดูนกในธรรมชาติมอบให้ผู้บริจาคให้ กองทุนฟื้นฟูนกล่าเหยื่อ ม.เกษตรศาสตร์ จำนวน 500 บาท/เล่ม เพื่อสนับสนุนโครงการฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ โดยโอนเงินเข้าบัญชี</p>
+							<p>กองทุนฟื้นฟูนกล่าเหยื่อ ม.เกษตรศาสตร์<br />
+								ธนาคารกรุงศรีอยุธยา สาขา ม. เกษตรศาสตร์ <br />
+								หมายเลขบัญชี #374-1-59950-2</p>
+							<p>แล้วถ่ายภาพใบเพย์อิน และที่อยู่ไปรษณีย์ของผู้บริจาคมาที่ช่องข้อความของเพจหน่วยฟื้นฟูนกล่าเหยื่อฯ <a href="https://www.facebook.com/KasetsartUniversityRaptorUnit" target="_blank">www.facebook.com/KasetsartUniversityRaptorUnit</a></p>
+						</div>
+						<div>
+							<h3 class="ui-bar ui-bar-g">คู่มือเหยี่ยวและนกอินทรี </h3>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/books/raptor-front.jpg" /></div>
+								<div class="ui-block-b"><img src="img/books/raptor-back.jpg" /></div>
+							</div>
+							<p>หนังสือคู่มือเหยี่ยวและนกอินทรี มีจำหน่ายที่ศูนย์หนังสือมหาวิทยาลัยเกษตรศาสตร์ หรือ สั่งซื้อทางไปรษณีย์ ราคา 800 บาท (ค่าส่งฟรี) โดยโอนเงินเข้าบัญชี</p>
+							<p>ธนาคารทหารไทย # 069-2-07562-5 <br />
+								สาขามหาวิทยาลัยเกษตรศาสตร์<br />
+								ชื่อบัญชี ไชยยันต์ เกษรดอกบัว</p>
+							<p>แล้วส่งภาพถ่ายใบเพย์อินพร้อมที่อยู่ไปรษณีย์ของผู้สั่งซื้อหนังสือมาที่ช่องข้อความของเพจกลุ่มศึกษาเหยี่ยวและนกอินทรี  <a href="https://www.facebook.com/ThaiRaptorGroup.TRG" target="_blank">www.facebook.com/ThaiRaptorGroup.TRG</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel9" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>
@@ -458,29 +438,26 @@
 				<h2>Thai Raptor Guide</h2>
 			</div>
 			<div role="main" class="ui-content">
-				<h2 class="ui-bar ui-bar-f">About</h2>
-				<div class="ui-body ui-body-f ui-corner-all">
+				<h2 class="ui-bar ui-bar-f">About (Beta v0.2)</h2>
+				<div class="content-page ui-body ui-body-f ui-corner-all">
 					<p><strong>กลุ่มศึกษาเหยี่ยวและนกอินทรีในประเทศไทย (Thai Raptor Group)</strong> เป็นหน่วยงานไม่แสวงหาผลกำไร ที่เกิดจากการรวมตัวของนักดูนกอาสาสมัคร สำรวจข้อมูลของนกนักล่าในธรรมชาติ เพื่อเผยแพร่สร้างความตระหนักและความเข้าใจที่ถูกต้องต่อนกนักล่าที่มีหน้ารักษาสมดุลของระบบนิเวศ ควบคุมจำนวนของสัตว์ต่างๆ มิให้มีประชากรล้นเกินจนอาจส่งผลกระทบต่อมนุษย์ และส่งเสริมการเข้าหาธรรมชาติด้วยการเรียนรู้เกี่ยวกับนกนักล่าในธรรมชาติผ่านทางกิจกรรมดูนกและนกนักล่า โดยไม่สนับสนุนการเลี้ยงนกนักล่าหรือนกในธรรมชาติซึ่งเป็นสัตว์ป่าคุ้มครองตามกฏหมาย</p>
 					
-					[TODO: more content]
+					<p>ฐานข้อมูลที่สำรวจนกนักล่า (เหยี่ยว นกอินทรีและอีแร้ง) ทั่วประเทศไทย รายละเอียดเพิ่มเติมที่ <a href="https://www.facebook.com/ThaiRaptorGroup.TRG" target="_blank">www.facebook.com/ThaiRaptorGroup.TRG</a> และ <a href="http://www.BirdsofThailand.org" target="_blank">www.BirdsofThailand.org</a></p>
+					<p>กลุ่มศึกษาเหยี่ยวและนกอินทรีในประเทศไทยขอขอบคุณนักดูนก และนักนิยมธรรมชาติทุกคนที่ให้ความร่วมมือ ส่งรายงาน ข้อมูลและภาพถ่ายของนกนักล่าในประเทศไทย เพื่อรวบรวมในฐานข้อมูลเผยแพร่สู่สาธารณะ</p>
+					<p>Text © Chaiyan Kasorndorkbua, DVM, PhD<br />
+					Faculty of Veterinary Medicine, Kasetsart University <a href="mailto:trogon@gmail.com">trogon@gmail.com</a></p>
+					<p>Design © Pornpat Nikamanon, Chayaphon Chandra</p>
+					<p>References</p>
+					<ol>
+						<li>Thai Raptor Group</li>
+						<li>คู่มือเหยี่ยวและนกอินทรี A Photographic Guide to the Raptors of Thailand, 2008. Text written by Dr.Chaiyan Kasorndorkbua</li>
+						<li><a href="http://www.BirdsofThailand.org" target="_blank">www.BirdsofThailand.org</a></li>
+					</ol>
+					<img src="img/steppe-blue.JPG">
 				</div>
 			</div>
 			
 			<div class="left-menu" data-role="panel" id="menupanel10" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
-				<ul data-role="listview">
-					<li><a href="#browsePage" data-transition="slide">Browse</a></li>
-					<li><a href="#searchPage" data-transition="slide">Search</a></li>
-					<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
-					<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
-					<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>
-					<li><a href="#infoGraphicsPage" data-transition="slide">Info Graphics</a></li>
-					<li><a href="#cartoonsPage" data-transition="slide">Cartoons</a></li>
-					<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>
-					<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
-					<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
-					<li><a href="#booksPage" data-transition="slide">Books</a></li>
-					<li><a href="#aboutPage" data-transition="slide">About</a></li>
-				</ul>
 			</div>
 		
 		</div>		
@@ -571,28 +548,32 @@
 		</div>
 	</div>
 	<div class="species-info ui-body ui-body-f ui-corner-all">
+		{{#if otherName}}
+			<div><strong>ชื่อท้องถิ่น:</strong> {{otherName}}</div>
+		{{/if}}
 		{{#if size}}
 			<div><strong>Size:</strong> {{size}}</div>
 		{{/if}}
 		{{#if wingspan}}
 			<div><strong>Wingspan:</strong> {{wingspan}}</div>
 		{{/if}}
-		{{#if habitat}}
-			<div><strong>Habitats:</strong> {{habitat}}</div>
-		{{/if}}
 		{{#if prey}}
 			<div><strong>Prey:</strong> {{prey}}</div>
 		{{/if}}
+		{{#if habitat}}
+			<div><strong>Habitats:</strong> {{habitat}}</div>
+		{{/if}}
 		{{#if status}}
-			<div><strong>Status:</strong> {{#renderStatus status}}{{/renderStatus}}</div>
+			<div><strong>Status:</strong> {{status}}</div>
 		{{/if}}
 		{{#if conservation}}
 			<div><strong>Conservation:</strong> {{#renderConservation conservation}}{{/renderConservation}}</div>
 		{{/if}}
-		{{#if otherName}}
-			<div><strong>ชื่อท้องถิ่น:</strong> {{otherName}}</div>
-		{{/if}}
 		<div>{{{description}}}</div>
+		<a href="#photogallery" class="view-photo" data-tid="{{id}}" data-role="button" data-theme="g">View Photos</a>
+		{{#if botLink}}
+		<a href="{{botLink}}" target="_blank">View in Birds of Thailand</a>
+		{{/if}}
 	</div>
 </script>
 
@@ -602,16 +583,33 @@
 	<p class="website">{{website}}</p>
 </script>
 
+<script id="menu-tpl" type="text/x-handlebars-template">
+	<ul data-role="listview">
+		<li><a href="#browsePage" data-transition="slide">Species</a></li>
+		<!--<li><a href="#searchPage" data-transition="slide">Search</a></li>-->
+		<li><a href="#idBasicsPage" data-transition="slide">ID Basics</a></li>
+		<li><a href="#silhouettePage" data-transition="slide">Silhouette</a></li>
+		<!--<li><a href="#statisticsPage" data-transition="slide">Statistics</a></li>-->
+		<li><a href="#infoGraphicsPage" data-transition="slide">Infographics</a></li>
+		<li><a href="#cartoonsPage" data-transition="slide">Raptor Toons</a></li>
+		<!--<li><a href="#slideshowPage" data-transition="slide">Slideshow</a></li>-->
+		<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
+		<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
+		<li><a href="#booksPage" data-transition="slide">Books</a></li>
+		<li><a href="#aboutPage" data-transition="slide">About</a></li>
+	</ul>
+</script>
+
         <!--<script src="cordova.js"></script>-->
 		<script src="lib/jquery.min.js"></script>
 		<script src="lib/jquery.mobile-1.4.5.min.js"></script>
 		<script src="lib/photoswipe.min.js"></script>
 		<script src="lib/photoswipe-ui-default.min.js"></script> 
 		<script src="lib/handlebars.js"></script>
-		<script src="js/storage/memory-store.js"></script>
-		<script src="js/BrowseView.js"></script>
-		<script src="js/SpeciesView.js"></script>
-		<script src="js/index.js"></script>
+		<script src="js/storage/memory-store.js?2015.10.16.3"></script>
+		<script src="js/BrowseView.js?2015.10.16.3"></script>
+		<script src="js/SpeciesView.js?2015.10.16.3"></script>
+		<script src="js/index.js?2015.10.16.3"></script>
         <script type="text/javascript">
             app.initialize();
         </script>

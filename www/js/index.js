@@ -23,6 +23,10 @@ var app = {
 		this.bindEvents();
 		
 		$.mobile.navigate('#splashPage');
+		
+		// init menu
+		$('.left-menu').html(app.menuTemplate());
+		
 		// init data store
 		this.store = new MemoryStore(function() {
 			new BrowseView(self).render();
@@ -37,6 +41,29 @@ var app = {
 				fullscreenEl: false,
 				shareEl: false
 			};
+			
+		// init help raptors
+		var imgSize = screen.width / 3;
+		var blockSize = imgSize * 0.9;
+		$('.help-raptor-list .ui-block-a, .help-raptor-list .ui-block-b, .help-raptor-list .ui-block-c').each(function() {
+			var div = $(this),
+				img = div.find('img')[0],
+				m = 0;
+			if (img.height > img.width) {
+				// portrait
+				$(img).width(imgSize);
+				$(img).css('left', '-10%');
+				m = (img.height - img.width) * 50 / img.width;
+				$(img).css('top', '-' + m + '%');
+			} else {
+				// landscape
+				$(img).height(imgSize);
+				$(img).css('top', '-10%');
+				m = (img.width - img.height) * 50 / img.height;
+				$(img).css('left', '-' + m + '%');
+			}
+			div.height(blockSize);
+		});
     },
     // Bind Event Listeners
     //
@@ -49,6 +76,10 @@ var app = {
 			e.preventDefault();
 			var id = parseInt($(this).attr('data-id'));
 			self.store.findSpeciesById(id, function(species) {
+				if (species === null) {
+					//alert('Data is not available in BETA version.');
+					return;
+				}
 				self.species = species;
                 new SpeciesView(species).render();
             });
@@ -78,6 +109,36 @@ var app = {
 				gallery.init();
             });
 		});
+		$('.gallery-list').on('click', 'a', function(e) {
+			var link = this;
+			e.preventDefault();
+			
+			// build items array
+			var items = [];
+			var pi = 0;
+			$.each($(this).parents('.gallery-list').find('a'), function(i, p) {
+				var item = {
+						src: p.attributes["href"].value,
+						w: parseInt(p.attributes["data-w"].value),
+						h: parseInt(p.attributes["data-h"].value),
+						title: p.title
+					};
+					items.push(item);
+					
+				if (link === p) {
+					pi = i;
+				}
+			});
+				
+			// Initializes and opens PhotoSwipe
+			var opts = {
+				index: pi,
+				fullscreenEl: false,
+				shareEl: false
+			};
+			var gallery = new PhotoSwipe( self.pswpElement, PhotoSwipeUI_Default, items, opts);
+			gallery.init();
+		});
     },
     // deviceready Event Handler
     //
@@ -100,3 +161,4 @@ var app = {
 };
 
 app.photoDescTemplate = Handlebars.compile($("#photo-desc-tpl").html());
+app.menuTemplate = Handlebars.compile($("#menu-tpl").html());

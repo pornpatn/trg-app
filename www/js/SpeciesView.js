@@ -4,7 +4,7 @@ var SpeciesView = function(species) {
     };
 
     this.render = function() {
-		$('#birdsPage .species-detail').html(SpeciesView.template(species));
+		$('#birdsPage .species-detail').html(SpeciesView.template(species)).trigger( "create" );
 		$.mobile.navigate('#birdsPage', { transition: 'slide' });
     };
 
