@@ -146,6 +146,13 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
 		app.receivedEvent('deviceready');
+		
+		// Mock device.platform property if not available
+		if (!window.device) {
+			window.device = { platform: 'Browser' };
+		}
+
+		app.handleExternalURLs();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -157,7 +164,28 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         //console.log('Received Event: ' + id);
-    }
+    },
+	
+	handleExternalURLs: function() {
+		// Handle click events for all external URLs
+		if (device.platform.toUpperCase() === 'ANDROID') {
+			$(document).on('click', 'a[href^="http"]', function (e) {
+				var url = $(this).attr('href');
+				navigator.app.loadUrl(url, { openExternal: true });
+				e.preventDefault();
+			});
+		}
+		else if (device.platform.toUpperCase() === 'IOS') {
+			$(document).on('click', 'a[href^="http"]', function (e) {
+				var url = $(this).attr('href');
+				window.open(url, '_system');
+				e.preventDefault();
+			});
+		}
+		else {
+			// Leave standard behaviour
+		}
+	}
 };
 
 app.photoDescTemplate = Handlebars.compile($("#photo-desc-tpl").html());
