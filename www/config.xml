@@ -1,7 +1,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "org.birdsofthailand.raptor"
-        version   = "0.5.1">
+        version   = "0.5.2">
 
 	<name>Thai Raptor</name>
 
@@ -41,6 +41,8 @@
         Define a specific version of PhoneGap to build into your app.
         <preference name="phonegap-version"       value="3.5.0" />
     -->
+	<preference name="StatusBarOverlaysWebView" value="false" /> 
+	<preference name="StatusBarBackgroundColor" value="#2c3e50" />
 
     <!-- Plugins -->
 
@@ -58,7 +60,7 @@
     <!--<gap:plugin name="org.apache.cordova.file-transfer" source="pgb" version="0.4.6" />-->
     <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.globalization" />
-    <!--<gap:plugin name="org.apache.cordova.inappbrowser" source="pgb" version="0.5.2" />-->
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
@@ -70,6 +72,8 @@
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
 	<gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
+	
+	<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
