@@ -42,6 +42,7 @@
     -->
 	<preference name="StatusBarOverlaysWebView" value="false" /> 
 	<preference name="StatusBarBackgroundColor" value="#2c3e50" />
+	<preference name="StatusBarStyle" value="lightcontent" />
 
     <!-- Plugins -->
 
