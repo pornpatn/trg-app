@@ -153,6 +153,10 @@ var app = {
 		}
 
 		app.handleExternalURLs();
+		
+		StatusBar.overlaysWebView( false );
+		StatusBar.backgroundColorByHexString('#2c3e50');
+		StatusBar.styleLightContent();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
