@@ -145,8 +145,6 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-		app.receivedEvent('deviceready');
-		
 		// Mock device.platform property if not available
 		if (!window.device) {
 			window.device = { platform: 'Browser' };
@@ -157,6 +155,8 @@ var app = {
 		StatusBar.overlaysWebView( false );
 		StatusBar.backgroundColorByHexString('#2c3e50');
 		StatusBar.styleLightContent();
+
+		app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
