@@ -40,7 +40,7 @@ header("Pragma: no-cache");
 		<link rel="stylesheet" href="css/jquery.mobile.flatui.min.css">
 		<link rel="stylesheet" href="css/photoswipe.css">
 		<link rel="stylesheet" href="css/default-skin/default-skin.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css?2015.10.20.1" />
+        <link rel="stylesheet" type="text/css" href="css/index.css?2015.10.21.1" />
         <title>Thai Raptor Guide</title>
     </head>
     <body>
@@ -183,7 +183,7 @@ header("Pragma: no-cache");
 			<div role="main" class="ui-content">
 				<h2 class="ui-bar ui-bar-f">เงาร่างขณะบิน (Flight silhouette)</h2>
 				<div class="content-page ui-body ui-body-f ui-corner-all">
-					<img src="img/silhouette/flight silhouette.jpg" />
+					<img src="img/silhouette/flight-silhouette.jpg" />
 				</div>
 			</div>
 			
@@ -225,13 +225,13 @@ header("Pragma: no-cache");
 								การสำรวจจำนวนเหยี่ยวอพยพในฤดูอพยพต้นหนาว ณ เขาเรดาร์ ต.ไชยราช อ.บางสะพานน้อย จ.ประจวบคีรีขันธ์</p>
 						</div>
 						<div>
-							<a href="img/infographics/black-kite-count-2014.jpg" data-w="1000" data-h="707" title="Black-eared Kite Count, 2014 สำรวจประชากรของเหยี่ยวหูดำ/เหยี่ยวดำใหญ่ ณ แหล่งพักนอนเวลากลางคืนในประเทศไทย พุทธศักราช 2557"><img src="img/infographics/black-kite-count-2014-m.jpg" />
+							<a href="img/infographics/black-kite-count-2014-2.jpg" data-w="1000" data-h="707" title="Black-eared Kite Count, 2014 สำรวจประชากรของเหยี่ยวหูดำ/เหยี่ยวดำใหญ่ ณ แหล่งพักนอนเวลากลางคืนในประเทศไทย พุทธศักราช 2557"><img src="img/infographics/black-kite-count-2014-2.jpg" />
 							</a>
 							<p><strong>Black-eared Kite Count, 2014</strong><br />
 								สำรวจประชากรของเหยี่ยวหูดำ/เหยี่ยวดำใหญ่ ณ แหล่งพักนอนเวลากลางคืนในประเทศไทย พุทธศักราช 2557</p>
 						</div>
 						<div>
-							<a href="img/infographics/jerdon-s-baza.jpg" data-w="1000" data-h="707" title="จำนวนของเหยี่ยวกิ้งก่าสีน้ำตาลอพยพผ่านภาคใต้ ณ เขาเรดาร์และเขาดินสอ ในฤดูกาลอพยพต้นหนาว พุทธศักราช 2548 – 2557"><img src="img/infographics/jerdon-s-baza.jpg" />
+							<a href="img/infographics/jerdon-s-baza-2.jpg" data-w="1000" data-h="707" title="จำนวนของเหยี่ยวกิ้งก่าสีน้ำตาลอพยพผ่านภาคใต้ ณ เขาเรดาร์และเขาดินสอ ในฤดูกาลอพยพต้นหนาว พุทธศักราช 2548 – 2557"><img src="img/infographics/jerdon-s-baza-2.jpg" />
 							</a>
 							<p>จำนวนของเหยี่ยวกิ้งก่าสีน้ำตาลอพยพผ่านภาคใต้ ณ เขาเรดาร์และเขาดินสอ ในฤดูกาลอพยพต้นหนาว พุทธศักราช 2548 – 2557</p>
 						</div>
@@ -256,9 +256,8 @@ header("Pragma: no-cache");
 					<p>เหยี่ยวอพยพ 6 ชนิดหลักในประเทศไทยและภูมิภาคเอเชียตะวันออกเฉียงใต้/อุษาคเนย์</p>
 					<div class="gallery-list ui-grid-a">
 						<div class="ui-block-a"><a href="img/cartoons/black-baza.jpg" data-w="1275" data-h="960" title="Black Baza"><img src="img/cartoons/black-baza.jpg" /></a></div>
-						<div class="ui-block-b"><a href="img/cartoons/ohb.jpg" data-w="792" data-h="834" title="Oriental Honey-buzzard"><img src="img/cartoons/ohb.jpg" /></a></div>
-						<div class="ui-block-a"><a href="img/cartoons/shikra.jpg" data-w="1091" data-h="932" title="
-						Shikra"><img src="img/cartoons/shikra.jpg" /></a></div>
+						<div class="ui-block-b"><a href="img/cartoons/ohb-2.jpg" data-w="792" data-h="834" title="Oriental Honey-buzzard"><img src="img/cartoons/ohb-2.jpg" /></a></div>
+						<div class="ui-block-a"><a href="img/cartoons/shikra-2.jpg" data-w="1091" data-h="932" title="Shikra"><img src="img/cartoons/shikra-2.jpg" /></a></div>
 						<div class="ui-block-b"><a href="img/cartoons/chinese-goshawk.jpg" data-w="1066" data-h="930" title="Chinese Sparrowhawk"><img src="img/cartoons/chinese-goshawk.jpg" /></a></div>
 						<div class="ui-block-a"><a href="img/cartoons/japanese-sparrowhawk.jpg" data-w="1330" data-h="892" title="Japanese Sparrowhawk"><img src="img/cartoons/japanese-sparrowhawk.jpg" /></a></div>
 						<div class="ui-block-b"><a href="img/cartoons/grey-faced-buzzard.jpg" data-w="918" data-h="902" title="Grey-faced Buzzard"><img src="img/cartoons/grey-faced-buzzard.jpg" /></a></div>
@@ -306,6 +305,7 @@ header("Pragma: no-cache");
 						Chultawat Bhowattanadilok, 
 						Hathairat Sawasdee, 
 						Jessada Sawasdee, 
+						Kamthon Jansuwannasorn, 
 						Kridsanasak Singkham, 
 						Mark Mallaleau, 
 						Maythira Kasemsant, 
@@ -445,7 +445,7 @@ header("Pragma: no-cache");
 				<h2>Thai Raptor Guide</h2>
 			</div>
 			<div role="main" class="ui-content">
-				<h2 class="ui-bar ui-bar-f">About (Beta v0.3)</h2>
+				<h2 class="ui-bar ui-bar-f">About (version Beta 0.5.5)</h2>
 				<div class="content-page ui-body ui-body-f ui-corner-all">
 					<p><strong>กลุ่มศึกษาเหยี่ยวและนกอินทรีในประเทศไทย (Thai Raptor Group)</strong> เป็นหน่วยงานไม่แสวงหาผลกำไร ที่เกิดจากการรวมตัวของนักดูนกอาสาสมัคร สำรวจข้อมูลของนกนักล่าในธรรมชาติ เพื่อเผยแพร่สร้างความตระหนักและความเข้าใจที่ถูกต้องต่อนกนักล่าที่มีหน้ารักษาสมดุลของระบบนิเวศ ควบคุมจำนวนของสัตว์ต่างๆ มิให้มีประชากรล้นเกินจนอาจส่งผลกระทบต่อมนุษย์ และส่งเสริมการเข้าหาธรรมชาติด้วยการเรียนรู้เกี่ยวกับนกนักล่าในธรรมชาติผ่านทางกิจกรรมดูนกและนกนักล่า โดยไม่สนับสนุนการเลี้ยงนกนักล่าหรือนกในธรรมชาติซึ่งเป็นสัตว์ป่าคุ้มครองตามกฏหมาย</p>
 					
@@ -614,10 +614,10 @@ header("Pragma: no-cache");
 		<script src="lib/photoswipe.min.js"></script>
 		<script src="lib/photoswipe-ui-default.min.js"></script> 
 		<script src="lib/handlebars.js"></script>
-		<script src="js/storage/memory-store.js?2015.10.20.1"></script>
-		<script src="js/BrowseView.js?2015.10.20.1"></script>
-		<script src="js/SpeciesView.js?2015.10.20.1"></script>
-		<script src="js/index.js?2015.10.20.1"></script>
+		<script src="js/storage/memory-store.js?2015.10.21.1"></script>
+		<script src="js/BrowseView.js?2015.10.21.1"></script>
+		<script src="js/SpeciesView.js?2015.10.21.1"></script>
+		<script src="js/index.js?2015.10.21.1"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
