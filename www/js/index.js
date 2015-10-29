@@ -172,6 +172,7 @@ var app = {
 	
 	handleExternalURLs: function() {
 		// Handle click events for all external URLs
+		/*
 		if (device.platform.toUpperCase() === 'ANDROID') {
 			$(document).on('click', 'a[href^="http"]', function (e) {
 				var url = $(this).attr('href');
@@ -198,6 +199,13 @@ var app = {
 		else {
 			// Leave standard behaviour
 		}
+		*/
+		
+		$(document).on('click', 'a[href^="http"]', function (e) {
+			var url = $(this).attr('href');
+			window.open(url, '_system');
+			e.preventDefault();
+		});
 	}
 };
 
