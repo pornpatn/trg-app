@@ -76,6 +76,9 @@
 	<platform name="ios">
 		<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 	</platform>
+	<platform name="android">
+		<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+	</platform>
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />

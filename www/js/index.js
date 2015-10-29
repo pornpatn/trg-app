@@ -175,7 +175,8 @@ var app = {
 		if (device.platform.toUpperCase() === 'ANDROID') {
 			$(document).on('click', 'a[href^="http"]', function (e) {
 				var url = $(this).attr('href');
-				navigator.app.loadUrl(url, { openExternal: true });
+				//navigator.app.loadUrl(url, { openExternal: true });
+				indow.open(url, '_system');
 				e.preventDefault();
 			});
 		}
