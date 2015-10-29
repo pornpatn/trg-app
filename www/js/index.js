@@ -175,7 +175,7 @@ var app = {
 		if (device.platform.toUpperCase() === 'ANDROID') {
 			$(document).on('click', 'a[href^="http"]', function (e) {
 				var url = $(this).attr('href');
-				//navigator.app.loadUrl(url, { openExternal: true });
+				navigator.app.loadUrl(url, { openExternal: true });
 				window.open(url, '_system');
 				e.preventDefault();
 			});
@@ -183,6 +183,14 @@ var app = {
 		else if (device.platform.toUpperCase() === 'IOS') {
 			$(document).on('click', 'a[href^="http"]', function (e) {
 				var url = $(this).attr('href');
+				window.open(url, '_system');
+				e.preventDefault();
+			});
+		}
+		else if (typeof navigator !== "undefined" && navigator.app) {
+			$(document).on('click', 'a[href^="http"]', function (e) {
+				var url = $(this).attr('href');
+				navigator.app.loadUrl(url, { openExternal: true });
 				window.open(url, '_system');
 				e.preventDefault();
 			});
