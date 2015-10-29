@@ -176,7 +176,7 @@ var app = {
 			$(document).on('click', 'a[href^="http"]', function (e) {
 				var url = $(this).attr('href');
 				//navigator.app.loadUrl(url, { openExternal: true });
-				indow.open(url, '_system');
+				window.open(url, '_system');
 				e.preventDefault();
 			});
 		}
