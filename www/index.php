@@ -30,7 +30,7 @@ header("Pragma: no-cache");
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
 		<meta property="og:title" content="Thai Raptor Guide (Beta)" />
 		<meta property="og:site_name" content="Birds of Thailand" />
 		<meta property="og:description" content="Photo Guide of the Raptors of Thailand and South-East Asia (partly), including color photographs, basic ID features, biology info, and field data infographics. Compiled by Thai Raptor Group since 2005." />
@@ -40,7 +40,7 @@ header("Pragma: no-cache");
 		<link rel="stylesheet" href="css/jquery.mobile.flatui.min.css">
 		<link rel="stylesheet" href="css/photoswipe.css">
 		<link rel="stylesheet" href="css/default-skin/default-skin.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css?2015.10.21.1" />
+        <link rel="stylesheet" type="text/css" href="css/index.css?2015.11.16.1" />
         <title>Thai Raptor Guide</title>
     </head>
     <body>
@@ -366,7 +366,7 @@ header("Pragma: no-cache");
 					</div>
 					
 					<p>คณะสัตวแพทยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ และสำนักอนุรักษ์สัตว์ป่า กรมอุทยานแห่งชาติ สัตว์ป่าและพันธุ์พืช จัดทำโครงการฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนสู่ธรรมชาติ (Raptor rehabilitation for release project) โดยหน่วยฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ โรงพยาบาลสัตว์ มหาวิทยาลัยเกษตรศาสตร์ กำแพงแสน (Kasetsart University Raptor Rehabilitation Unit: KURU) เพื่อช่วยเหลือบำบัดรักษานกนักล่าที่บาดเจ็บ หรือเจ็บป่วย ให้มีสุขภาพแข็งแรง แล้วปล่อยคืนธรรมชาติในถิ่นอาศัยและฤดูกาลที่เหมาะสมต่อชนิดพันธุ์ นกที่รักษาแล้วรอดชีวิตแต่พิการ จะเลี้ยงไว้เป็น “ตำรามีชีวิต” สอนนิสิตสัตวแพทย์ด้านเวชศาสตร์สัตว์ป่า และเป็นตัวอย่างให้ความรู้ต่อสาธารณะ</p>
-					<p>การช่วยเหลือฟื้นฟูนกนักล่าบาดเจ็บหรือเจ็บป่วยเหล่านี้ ไม่คิดค่าใช้จ่ายหรือค่าวินิจฉัยและรักษาโรคจากประชาชนผู้นำส่งแต่ประการใด เนื่องจากนกนักล่าเป็นสัตว์ป่าคุ้มครองตามกฎหมาย หากใช้เงินบริจาคของประชาชนในกองทุน “ฟื้นฟูนกล่าเหยื่อ ม.เกษตรศาสตร์” สนับสนุนการดำเนินงานของโครงการฟื้นฟูนกล่าเหยื่อฯ รวมทั้งได้รับการสนับสนุนด้านต่างๆ จากองค์กรเอกชน อาทิ เครือเบทาโกร บริษัท เน็ทวัน เน็ทเวิร์คโซลูชั่น จำกัด</p>
+					<p>การช่วยเหลือฟื้นฟูนกนักล่าบาดเจ็บหรือเจ็บป่วยเหล่านี้ ไม่คิดค่าใช้จ่ายหรือค่าวินิจฉัยและรักษาโรคจากประชาชนผู้นำส่งแต่ประการใด เนื่องจากนกนักล่าเป็นสัตว์ป่าคุ้มครองตามกฎหมาย หากใช้เงินบริจาคของประชาชนในกองทุน “กองทุนวิจัยนกนักล่าเพื่อการอนุรักษ์ ม.เกษตรศาสตร์” สนับสนุนการดำเนินงานของโครงการฟื้นฟูนกล่าเหยื่อฯ รวมทั้งได้รับการสนับสนุนด้านต่างๆ จากองค์กรเอกชน อาทิ เครือเบทาโกร บริษัท เน็ทวัน เน็ทเวิร์คโซลูชั่น จำกัด</p>
 					<p>คณะทำงานในโครงการฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ</p>
 					<ol>
 						<li>นายสัตวแพทย์ ดร.ไชยยันต์ เกษรดอกบัว หัวหน้าหน่วยฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ </li>
@@ -378,9 +378,10 @@ header("Pragma: no-cache");
 					</ol>
 					<p>ติดตามการดำเนินงานของหน่วยฟื้นฟูนกล่าเหยื่อฯ ที่ <a href="https://www.facebook.com/KasetsartUniversityRaptorUnit" target="_blank">www.facebook.com/KasetsartUniversityRaptorUnit</a></p>
 					<p>ประชาชนผู้ประสงค์จะช่วยเหลือนกนักล่าบาดเจ็บ หรือเจ็บป่วยสามารถบริจาคด้วยการโอนเงินที่</p>
-					<p>กองทุนฟื้นฟูนกล่าเหยื่อ ม.เกษตรศาสตร์<br />
-						ธนาคารกรุงศรีอยุธยา สาขาม. เกษตรศาสตร์ <br />
-						หมายเลขบัญชี #374-1-59950-2</p>
+					<p>กองทุนวิจัยนกนักล่าเพื่อการอนุรักษ์ ม.เกษตรศาสตร์<br />
+						Raptor Research Fund for Conservation (Raptor Fund)<br />
+						ธนาคารกรุงศรีอยุธยา สาขามหาวิทยาลัยเกษตรศาสตร์<br />
+						หมายเลขบัญชี #374-1-67289-9</p>
 					<p>สอบถามขั้นตอน หรือกระบวนการช่วยเหลือนกบาดเจ็บเบื้องต้นที่ โทร. 086-3328117</p>
 					<p>นำส่งนกนักล่าบาดเจ็บหรือเจ็บป่วยที่</p>
 					<ul>
@@ -412,8 +413,8 @@ header("Pragma: no-cache");
 								<div class="ui-block-a"><img src="img/books/nok.jpg" /></div>
 								<div class="ui-block-b"><img src="img/books/nok-back.jpg" /></div>
 							</div>
-							<p>หนังสือนกไทย นกเทศและนกนักล่า รวบรวมบทความเผยแพร่เกี่ยวกับการดูนกในธรรมชาติมอบให้ผู้บริจาคให้ กองทุนฟื้นฟูนกล่าเหยื่อ ม.เกษตรศาสตร์ จำนวน 500 บาท/เล่ม เพื่อสนับสนุนโครงการฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ โดยโอนเงินเข้าบัญชี</p>
-							<p>กองทุนฟื้นฟูนกล่าเหยื่อ ม.เกษตรศาสตร์<br />
+							<p>หนังสือนกไทย นกเทศและนกนักล่า รวบรวมบทความเผยแพร่เกี่ยวกับการดูนกในธรรมชาติมอบให้ผู้บริจาคให้ กองทุนวิจัยนกนักล่าเพื่อการอนุรักษ์ ม.เกษตรศาสตร์ จำนวน 500 บาท/เล่ม เพื่อสนับสนุนโครงการฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ โดยโอนเงินเข้าบัญชี</p>
+							<p>กองทุนวิจัยนกนักล่าเพื่อการอนุรักษ์ ม.เกษตรศาสตร์<br />
 								ธนาคารกรุงศรีอยุธยา สาขา ม. เกษตรศาสตร์ <br />
 								หมายเลขบัญชี #374-1-59950-2</p>
 							<p>แล้วถ่ายภาพใบเพย์อิน และที่อยู่ไปรษณีย์ของผู้บริจาคมาที่ช่องข้อความของเพจหน่วยฟื้นฟูนกล่าเหยื่อฯ <a href="https://www.facebook.com/KasetsartUniversityRaptorUnit" target="_blank">www.facebook.com/KasetsartUniversityRaptorUnit</a></p>
@@ -439,15 +440,50 @@ header("Pragma: no-cache");
 		
 		</div>
 
-		<div data-role="page" id="aboutPage">
+		<div data-role="page" id="sightingsPage">
 			<div data-role="header" data-position="fixed">
 				<a data-iconpos="notext" href="#menupanel10" data-role="button" data-icon="flat-menu"></a>	
 				<h2>Thai Raptor Guide</h2>
 			</div>
 			<div role="main" class="ui-content">
-				<h2 class="ui-bar ui-bar-f">About (version Beta 0.5.5)</h2>
+				<h2 class="ui-bar ui-bar-f">Sightings</h2>
+				<div class="content-page ui-body ui-body-f ui-corner-all">
+					<p>Report sightings of raptors in Thailand (species, date, locality, bahavior, number of birds, photograph if available) to <a href="mailto:raptor@BirdsofThailand.org">raptor@BirdsofThailand.org</a>. Notable sightings will be archived on Siam Avifauna <a href="http://www.BirdsofThailand.org" target="_blank">www.BirdsofThailand.org</a> for public access.</p>
+				</div>
+			</div>
+			
+			<div class="left-menu" data-role="panel" id="menupanel10" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
+			</div>
+		
+		</div>
+	
+		<div data-role="page" id="aboutPage">
+			<div data-role="header" data-position="fixed">
+				<a data-iconpos="notext" href="#menupanel11" data-role="button" data-icon="flat-menu"></a>	
+				<h2>Thai Raptor Guide</h2>
+			</div>
+			<div role="main" class="ui-content">
+				<h2 class="ui-bar ui-bar-f">About (version Beta 0.6.0)</h2>
 				<div class="content-page ui-body ui-body-f ui-corner-all">
 					<p><strong>กลุ่มศึกษาเหยี่ยวและนกอินทรีในประเทศไทย (Thai Raptor Group)</strong> เป็นหน่วยงานไม่แสวงหาผลกำไร ที่เกิดจากการรวมตัวของนักดูนกอาสาสมัคร สำรวจข้อมูลของนกนักล่าในธรรมชาติ เพื่อเผยแพร่สร้างความตระหนักและความเข้าใจที่ถูกต้องต่อนกนักล่าที่มีหน้ารักษาสมดุลของระบบนิเวศ ควบคุมจำนวนของสัตว์ต่างๆ มิให้มีประชากรล้นเกินจนอาจส่งผลกระทบต่อมนุษย์ และส่งเสริมการเข้าหาธรรมชาติด้วยการเรียนรู้เกี่ยวกับนกนักล่าในธรรมชาติผ่านทางกิจกรรมดูนกและนกนักล่า โดยไม่สนับสนุนการเลี้ยงนกนักล่าหรือนกในธรรมชาติซึ่งเป็นสัตว์ป่าคุ้มครองตามกฏหมาย</p>
+					
+					<p><strong>กองทุนวิจัยนกนักล่าเพื่อการอนุรักษ์ ม.เกษตรศาสตร์</strong><br />
+					Raptor Research Fund for Conservation (Raptor Fund)<br />
+					<br />
+					ดูแลโดยคณะสัตวแพทยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์<br />
+					ที่ปรึกษา <br />
+					1. ดร.เกษม สนิทวงศ์ ณ อยุธยา<br />
+					2. ศาสตราจารย์ นายสัตวแพทย์ ดร.อภินันท์ สุประเสริฐ คณบดีคณะสัตวแพทยศาสตร์<br />
+					คณะกรรมการกองทุน :<br />
+					1. นายสัตวแพทย์ ดร.ไชยยันต์ เกษรดอกบัว<br />
+					2. นายสัตวแพทย์ ดร.อุคเดช บุญประกอบ<br />
+					3. นายสัตวแพทย์ ดร.ชนินทร์ ติรวัฒนวานิช<br />
+					<br />
+					จุดประสงค์ของกองทุน สนับสนุนการวิจัยและการฟื้นฟูสุขภาพของนกนักล่า/นกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ โดยหน่วยวิจัยนกนักล่าและอายุรศาสตร์การอนุรักษ์ (Kasetsart Laboratory of Raptor research and Conservation Medicine) กลุ่มศึกษาเหยี่ยวและนกอินทรีในประเทศไทย และหน่วยฟื้นฟูนกล่าเหยื่อเพื่อปล่อยคืนธรรมชาติ โรงพยาบาลสัตว์ คณะสัตวแพทยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์</p>
+					<p>กองทุนวิจัยนกนักล่าเพื่อการอนุรักษ์ ม.เกษตรศาสตร์<br />
+						Raptor Research Fund for Conservation (Raptor Fund)<br />
+						ธนาคารกรุงศรีอยุธยา สาขา ม. เกษตรศาสตร์ <br />
+						หมายเลขบัญชี #374-1-67289-9</p>
 					
 					<p>ฐานข้อมูลที่สำรวจนกนักล่า (เหยี่ยว นกอินทรีและอีแร้ง) ทั่วประเทศไทย รายละเอียดเพิ่มเติมที่ <a href="https://www.facebook.com/ThaiRaptorGroup.TRG" target="_blank">www.facebook.com/ThaiRaptorGroup.TRG</a> และ <a href="http://www.BirdsofThailand.org" target="_blank">www.BirdsofThailand.org</a></p>
 					<p>กลุ่มศึกษาเหยี่ยวและนกอินทรีในประเทศไทยขอขอบคุณนักดูนก และนักนิยมธรรมชาติทุกคนที่ให้ความร่วมมือ ส่งรายงาน ข้อมูลและภาพถ่ายของนกนักล่าในประเทศไทย เพื่อรวบรวมในฐานข้อมูลเผยแพร่สู่สาธารณะ</p>
@@ -465,7 +501,7 @@ header("Pragma: no-cache");
 				</div>
 			</div>
 			
-			<div class="left-menu" data-role="panel" id="menupanel10" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
+			<div class="left-menu" data-role="panel" id="menupanel11" data-position="left" data-theme="a" data-display="push" data-position-fixed="true">
 			</div>
 		
 		</div>		
@@ -604,6 +640,7 @@ header("Pragma: no-cache");
 		<li><a href="#contributorsPage" data-transition="slide">Contributors</a></li>
 		<li><a href="#helpRaptorsPage" data-transition="slide">Help Raptors</a></li>
 		<li><a href="#booksPage" data-transition="slide">Books</a></li>
+		<li><a href="#sightingsPage" data-transition="slide">Sightings</a></li>
 		<li><a href="#aboutPage" data-transition="slide">About</a></li>
 	</ul>
 </script>
@@ -614,10 +651,10 @@ header("Pragma: no-cache");
 		<script src="lib/photoswipe.min.js"></script>
 		<script src="lib/photoswipe-ui-default.min.js"></script> 
 		<script src="lib/handlebars.js"></script>
-		<script src="js/storage/memory-store.js?2015.10.21.1"></script>
-		<script src="js/BrowseView.js?2015.10.21.1"></script>
-		<script src="js/SpeciesView.js?2015.10.21.1"></script>
-		<script src="js/index.js?2015.10.21.1"></script>
+		<script src="js/storage/memory-store.js?2015.11.16.1"></script>
+		<script src="js/BrowseView.js?2015.11.16.1"></script>
+		<script src="js/SpeciesView.js?2015.11.16.1"></script>
+		<script src="js/index.js?2015.11.16.1"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
