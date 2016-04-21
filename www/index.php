@@ -312,7 +312,7 @@ header("Pragma: no-cache");
 						Nuttawat Wiratchakoun, 
 						Dr.Pattarapong Jakthong, 
 						Peerasit Tantavanij, 
-						Pornpat Nikamanon, 
+						P. Nikamanon, 
 						Praphin Buasong, 
 						Saranya Sombatanantakorn</p>
 
@@ -464,7 +464,7 @@ header("Pragma: no-cache");
 				<h2>Thai Raptor Guide</h2>
 			</div>
 			<div role="main" class="ui-content">
-				<h2 class="ui-bar ui-bar-f">About (version Beta 0.6.2)</h2>
+				<h2 class="ui-bar ui-bar-f">About (version 1.0.0)</h2>
 				<div class="content-page ui-body ui-body-f ui-corner-all">
 					<p><strong>กลุ่มศึกษาเหยี่ยวและนกอินทรีในประเทศไทย (Thai Raptor Group)</strong> เป็นหน่วยงานไม่แสวงหาผลกำไร ที่เกิดจากการรวมตัวของนักดูนกอาสาสมัคร สำรวจข้อมูลของนกนักล่าในธรรมชาติ เพื่อเผยแพร่สร้างความตระหนักและความเข้าใจที่ถูกต้องต่อนกนักล่าที่มีหน้ารักษาสมดุลของระบบนิเวศ ควบคุมจำนวนของสัตว์ต่างๆ มิให้มีประชากรล้นเกินจนอาจส่งผลกระทบต่อมนุษย์ และส่งเสริมการเข้าหาธรรมชาติด้วยการเรียนรู้เกี่ยวกับนกนักล่าในธรรมชาติผ่านทางกิจกรรมดูนกและนกนักล่า โดยไม่สนับสนุนการเลี้ยงนกนักล่าหรือนกในธรรมชาติซึ่งเป็นสัตว์ป่าคุ้มครองตามกฏหมาย</p>
 					
@@ -490,7 +490,7 @@ header("Pragma: no-cache");
 					<p>กลุ่มศึกษาเหยี่ยวและนกอินทรีในประเทศไทยขอขอบคุณนักดูนก และนักนิยมธรรมชาติทุกคนที่ให้ความร่วมมือ ส่งรายงาน ข้อมูลและภาพถ่ายของนกนักล่าในประเทศไทย เพื่อรวบรวมในฐานข้อมูลเผยแพร่สู่สาธารณะ</p>
 					<p>Text © Chaiyan Kasorndorkbua, DVM, PhD<br />
 					Faculty of Veterinary Medicine, Kasetsart University <a href="mailto:trogon@gmail.com">trogon@gmail.com</a></p>
-					<p>Design © Pornpat Nikamanon, Chayapon Chandra</p>
+					<p>Design © P. Nikamanon &amp; Chaiyan Kasorndorkbua</p>
 					<p>References</p>
 					<ol>
 						<li>คู่มือเหยี่ยวและนกอินทรี A Photographic Guide to the Raptors of Thailand, 2008. Text written by Dr.Chaiyan Kasorndorkbua.</li>

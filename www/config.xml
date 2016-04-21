@@ -1,7 +1,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "org.birdsofthailand.raptor"
-        version   = "0.6.2">
+        version   = "1.0.0">
 
 	<name>Thai Raptor</name>
 
@@ -9,7 +9,7 @@
         Photo Guide of the Raptors of Thailand and South-East Asia (partly), including color photographs, basic ID features, biology info, and field data infographics. Compiled by Thai Raptor Group since 2005.
     </description>
 
-    <author href="http://www.birdsofthailand.org/" email="support@birdsofthailand.org">
+    <author href="http://www.birdsofthailand.org/" email="trgapp@birdsofthailand.org">
         Birds of Thailand Team
     </author>
 
