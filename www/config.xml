@@ -57,7 +57,7 @@
     <gap:plugin name="org.apache.cordova.device-orientation" />
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" source="npm" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
     <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.globalization" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
@@ -77,7 +77,8 @@
 		<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 	</platform>
 	<platform name="android">
-		<plugin name="InAppBrowser" value="org.apache.cordova.inappbrowser" />
+		<!--<plugin name="InAppBrowser" value="org.apache.cordova.inappbrowser" />-->
+		<plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
 	</platform>
 
     <!-- Define app icon for each platform. -->
